@@ -140,7 +140,7 @@ func updateUser(login string, data *User) (*UserResponse, error) {
 	}
 	return user, nil
 }
-
+// shimmer
 func createUser(login string, password string, name string, age uint) error {
 	user := User{
 		Login:    login,
